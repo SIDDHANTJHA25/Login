@@ -8,8 +8,11 @@ This Project Contains Two Main Folder
 
 
 # WebContent:
-       1.The login page is index.jsp
+       1.The login page is index.jsp.
 ![Index](https://user-images.githubusercontent.com/66818761/85000724-6ceac480-b170-11ea-9c63-8e1a9bab13a2.png)
 
-       2.If The User not provide any data then it shows warning message
+       2.If The User not provide any data then it shows warning message.
 ![warning](https://user-images.githubusercontent.com/66818761/85001474-53964800-b171-11ea-9d67-21133e04ba35.png)
+ 
+       3.If user successfully login and all credentials matched with the database then.
+![successfull](https://user-images.githubusercontent.com/66818761/85003042-4e39fd00-b173-11ea-8799-ce271b162d24.png)
