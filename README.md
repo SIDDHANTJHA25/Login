@@ -1,7 +1,8 @@
 # Login
 It is simple user authentication using jsp and servlets
 
-The whole project structure is:
+The whole project structure is.
+
 ![project(structure)](https://user-images.githubusercontent.com/66818761/85008948-4c743780-b17b-11ea-86d5-8d9f4b9c4f22.png)
  
  
