@@ -23,7 +23,7 @@ public class LoginController extends HttpServlet{
 	}
 
 	private void loginProcess(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		System.out.println("IN IT");
+		
 		
 		String username=req.getParameter("username");
 		String pass=req.getParameter("pass");
