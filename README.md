@@ -25,3 +25,10 @@ This Project Contains Two Main Folder
  # src(Backend): It contains four packages.
        1.controller:- It exist in src/com/authentication, It consist class LoginController.java this class extends HttpServlet class, In the  class LoginController.java there is two method doGet() and doPst() from which we called the method loginProcess() it takes the username and password from login.js and it call the dao class method which return Login class(model class) object if the  Login class object is null this means the given username and password does not exist in database otherwise it returns the Login class object and we create the session login.
        
+       2.dao:-It exist in src/com/authentication,It consist two clsses
+               1.Dao.java:- In this class we create the Connection object through jdbc with mysql database there is method getMyConnection() method which return the Connection object.
+               
+               the table(LOGINTEST)schema is:
+ ![table](https://user-images.githubusercontent.com/66818761/85006140-614ecc00-b177-11ea-9914-9f40d01c5ca5.png)
+     
+            
