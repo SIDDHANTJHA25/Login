@@ -31,4 +31,8 @@ This Project Contains Two Main Folder
                the table(LOGINTEST)schema is:
  ![table](https://user-images.githubusercontent.com/66818761/85006140-614ecc00-b177-11ea-9914-9f40d01c5ca5.png)
      
-            
+               2.LoginDao:-In this class we take all the data from the database  and check store it in the model class,the object of LoginDao follow singelton pattern
+                the data of table that i used:
+ ![data](https://user-images.githubusercontent.com/66818761/85006960-78da8480-b178-11ea-8b27-34d8920f0146.png)
+
+               
