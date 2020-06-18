@@ -19,7 +19,7 @@ This Project Contains Two Main Folder
 
        2.If The User not provide any data then it shows warning message.
 ![warning](https://user-images.githubusercontent.com/66818761/85001474-53964800-b171-11ea-9d67-21133e04ba35.png)
- 
+       
        3.If user successfully login and all credentials matched with the database then.
 ![successfull](https://user-images.githubusercontent.com/66818761/85003042-4e39fd00-b173-11ea-8799-ce271b162d24.png)
 
@@ -27,6 +27,7 @@ This Project Contains Two Main Folder
        
        5.When Signin button clicked then jquery execute WebContent/js/login.js.
        
+       6.There is index1.jsp which executed after jquery in this we chek if the login session is not null then we redirected the page to the home.jsp(which show the successfullly login message as in point 2 above),Otherwise it redirect to index.jsp which is login page.
        
  # src(Backend): It contains four packages.
        1.controller:- It exist in src/com/authentication, It consist class LoginController.java this class extends HttpServlet class, In the  class LoginController.java there is two method doGet() and doPost() from which we called the method loginProcess() it takes the username and password from login.js and it call the dao class method which return Login class(model class) object if the  Login class object is null this means the given username and password does not exist in database otherwise it returns the Login class object and we create the session login.
