@@ -46,7 +46,7 @@ This Project Contains Two Main Folder
        3.model:- It exist in src/com/authentication ,It consist one class Login.java in which there are two string variable 
                  1.String name
                  2.String pass
- through this class we can store and retrieve username and password wherever we required.
+                 through this class we can store and retrieve username and password wherever we required.
  
        4.utility:- It exist in src/com/authentication ,It consist one class Utility.java in this class there is one method logFile() which print the exception and error occured in which method and what is the exception we can use this class to easily trace the exception and to maintain log.
        
